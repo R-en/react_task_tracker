@@ -6,14 +6,10 @@ const Header = ({ title }) => {
     console.log("event");
   };
 
-  function handleClick(event) {
-    console.log(event);
-  }
   return (
     <header className="header">
       <h1>{title}</h1>
       <Button color="green" text="Add" onClick={_onClick} />
-      <Button color="blue" text="test" onClick={handleClick} />
     </header>
   );
 };
