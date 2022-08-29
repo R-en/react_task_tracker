@@ -31,14 +31,16 @@ function App() {
 
   //add task
   const addTask = (task) => {
-    const id = Math.floor(Math.random() * 1000) + 1;
+    //const id = Math.floor(Math.random() * 1000) + 1;
+    const id = tasks[tasks.length - 1].id + 1;
     const newTask = { id, ...task };
     setTasks([...tasks, newTask]);
+    console.log("new id ", id);
   };
 
   //delete task
   const deleteTask = (id) => {
-    // console.log("deleted", id);
+    console.log("deleted", id);
     setTasks(tasks.filter((task) => task.id !== id));
   };
 
