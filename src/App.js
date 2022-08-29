@@ -35,12 +35,12 @@ function App() {
     const id = tasks[tasks.length - 1].id + 1;
     const newTask = { id, ...task };
     setTasks([...tasks, newTask]);
-    console.log("new id ", id);
+    //console.log("new id ", id);
   };
 
   //delete task
   const deleteTask = (id) => {
-    console.log("deleted", id);
+    //console.log("deleted", id);
     setTasks(tasks.filter((task) => task.id !== id));
   };
 
