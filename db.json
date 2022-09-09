@@ -7,16 +7,16 @@
       "reminder": true
     },
     {
-      "id": 3,
-      "text": "Disk Appoint",
-      "day": "Feb 4th at 5pm",
-      "reminder": false
+      "text": "Add task ",
+      "day": "Fri 9 9 ",
+      "reminder": true,
+      "id": 2
     },
     {
-      "text": "Taks 2",
-      "day": "Tues",
-      "reminder": false,
-      "id": 4
+      "text": "Change Reminder",
+      "day": "Fri 9 9",
+      "reminder": true,
+      "id": 3
     }
   ]
 }
